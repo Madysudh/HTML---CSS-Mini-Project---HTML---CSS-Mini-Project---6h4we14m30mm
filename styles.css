@@ -1,1 +1,191 @@
+.main{
+    background-image: url(https://b.zmtcdn.com/data/pictures/0/18863170/c05be4700f027940d14a1c2a93f00a2f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+} 
+.name{
+    display: flex;
+    justify-content: center;
+    color: rgb(238, 6, 238);
+    font-size: 50px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: text 20s linear infinite ;
+    cursor: not-allowed;
 
+}
+@keyframes text{
+    0%{
+        color: aliceblue;
+    }
+    25%{
+        color: rgb(17, 92, 158);
+    }
+    50%{
+        color: rgb(47, 219, 12);
+    }
+    75%{
+        color: rgb(247, 11, 11);
+    }
+    100%{
+        color: rgb(247, 11, 157);
+    }
+}
+
+
+
+.fontbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+   font-size: 20px;
+   animation: head 35s linear infinite ;
+   
+
+}
+@keyframes head{
+    0%{
+        background-color: aliceblue;
+    }
+    25%{
+        background-color: rgb(36, 230, 61);
+    }
+    50%{
+        background-color: rgb(219, 12, 91);
+    }
+
+}
+.Create{
+    margin-top: -30%;
+    margin-left: 59%;
+    
+    background-image: url(https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWxvbmV8ZW58MHx8MHx8&w=1000&q=80);
+    opacity: .85;
+    height: 400px;
+    width: 325px;
+    font-size: 23px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(10, 248, 10);
+    border-radius: 20px;
+    padding-left: 2px;
+    padding-top: 10px;
+    cursor: default;
+}
+.Create input{
+    font-size: 22px;
+    border-radius: 8px;
+    color: transparent;
+    padding-top: 5px;
+    color: rgb(52, 12, 88);
+    
+}
+.container{
+    margin-top: 4%;
+    margin-left: 3%;
+    background: url(photo1.jpg);
+    
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+    animation: slide 30s linear infinite ;
+    
+}
+
+@keyframes slide{
+    0%{
+        background-image: url("photo1.jpg");
+    }
+    20%{
+        background-image: url("photo2.jpg");
+    }
+    40%{
+        background-image: url("photo3.webp");
+    }
+    60%{
+        background-image: url("photo4.webp");
+    }
+    80%{
+        background-image: url("photo5.jpg");
+    }
+    100%{
+        background-image: url("photo6.jpg");
+    }
+}
+ 
+ .tooltip{
+    background-color: rgb(58, 16, 245);
+    border-radius: 3px;
+    cursor: pointer;
+    
+    
+ }
+ 
+ .tooltip-box{
+   
+    color: blueviolet;
+    display: inline-block;
+
+    
+    
+    position: absolute;
+    font-size: 20px;
+    border-radius: 8px;
+    z-index: 1;
+   visibility: hidden;
+ }
+ .tooltip:hover .tooltip-box{
+    visibility: visible;
+    background-color: aqua;
+    
+ }
+ .login{
+    display: block ;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+
+ }
+ .login input{
+    font-size: 13px;
+    font-style: oblique;
+    border-radius: 5px;
+ }
+ .submit2{
+    background-color: rgb(61, 219, 61);
+    border-radius: 3px;
+ }
+ .submit2 input{
+    padding-top: 4px;
+    
+    
+    
+ }
+    
+.submit{
+    background-color: orange;
+    font-size: 25px;
+    color: rgb(204, 13, 13);
+    border-radius: 10px;
+    margin-top: 25px;
+    
+}
+.submit :hover{
+    background-color: green;
+}
+.welcome{
+    background-image: url(https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.welcome{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: bisque;
+
+}
